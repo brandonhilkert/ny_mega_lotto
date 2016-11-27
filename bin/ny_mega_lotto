@@ -1,4 +1,4 @@
-
+# !/usr/bin/env ruby
 require_relative "../lib/ny_mega_lotto/drawing"
 
 drawing = NyMegaLotto::Drawing.new.draw

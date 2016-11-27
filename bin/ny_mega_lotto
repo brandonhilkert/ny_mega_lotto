@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative "../lotto/ny_mega_lotto/drawing"
+
+drawing = NyMegaLotto::Drawing.new.draw
+puts drawing

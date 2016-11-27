@@ -1,5 +1,9 @@
-require "ny_mega_lotto/version"
+require 'ny_mega_lotto/version'
+
+begin
+    require 'pry'
+rescue LoadError
+end
 
 module NyMegaLotto
-  # Your code goes here...
 end

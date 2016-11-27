@@ -20,6 +20,12 @@ Or install it yourself as:
 
 Test app. generates random lotto numbers
 
+```ruby
+winning_numbers = NyMegaLotto::Drawing.new.draw
+
+puts winning_numbers
+```
+
 
 
 ## License
